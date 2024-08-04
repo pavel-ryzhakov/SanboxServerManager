@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Core", "SanboxServerManager.Core\SanboxServerManager.Core.csproj", "{357CD405-0D95-4B17-89C6-C3DE98D39FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.WebApi", "SanboxServerManager.WebApi\SanboxServerManager.WebApi.csproj", "{708D8747-4F36-43ED-86D0-B9810FC2CFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Infrastructure", "SanboxServerManager.Infrastructure\SanboxServerManager.Infrastructure.csproj", "{87CAB20D-CB22-4B88-8DBF-A9A39761E603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Application", "SanboxServerManager.Application\SanboxServerManager.Application.csproj", "{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{357CD405-0D95-4B17-89C6-C3DE98D39FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357CD405-0D95-4B17-89C6-C3DE98D39FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357CD405-0D95-4B17-89C6-C3DE98D39FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357CD405-0D95-4B17-89C6-C3DE98D39FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708D8747-4F36-43ED-86D0-B9810FC2CFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708D8747-4F36-43ED-86D0-B9810FC2CFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708D8747-4F36-43ED-86D0-B9810FC2CFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708D8747-4F36-43ED-86D0-B9810FC2CFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CAB20D-CB22-4B88-8DBF-A9A39761E603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CAB20D-CB22-4B88-8DBF-A9A39761E603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CAB20D-CB22-4B88-8DBF-A9A39761E603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CAB20D-CB22-4B88-8DBF-A9A39761E603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC05862D-E361-4942-9E56-1B6EE3972245}
+	EndGlobalSection
+EndGlobal
