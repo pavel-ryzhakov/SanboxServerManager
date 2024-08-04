@@ -1,6 +1,8 @@
 using SanboxServerManager.Infrastructure;
 using SanboxServerManager.Application;
 
+//build
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
