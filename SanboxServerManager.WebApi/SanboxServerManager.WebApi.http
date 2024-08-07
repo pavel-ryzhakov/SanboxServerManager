@@ -1,6 +1,0 @@
-@SanboxServerManager.WebApi_HostAddress = http://localhost:5245
-
-GET {{SanboxServerManager.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

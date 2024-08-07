@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Core", "SanboxServerManager.Core\SanboxServerManager.Core.csproj", "{357CD405-0D95-4B17-89C6-C3DE98D39FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxServerManager.Core", "SanboxServerManager.Core\SanboxServerManager.Core.csproj", "{357CD405-0D95-4B17-89C6-C3DE98D39FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.WebApi", "SanboxServerManager.WebApi\SanboxServerManager.WebApi.csproj", "{708D8747-4F36-43ED-86D0-B9810FC2CFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxServerManager.WebApi", "SanboxServerManager.WebApi\SanboxServerManager.WebApi.csproj", "{708D8747-4F36-43ED-86D0-B9810FC2CFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Infrastructure", "SanboxServerManager.Infrastructure\SanboxServerManager.Infrastructure.csproj", "{87CAB20D-CB22-4B88-8DBF-A9A39761E603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxServerManager.Infrastructure", "SanboxServerManager.Infrastructure\SanboxServerManager.Infrastructure.csproj", "{87CAB20D-CB22-4B88-8DBF-A9A39761E603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.Application", "SanboxServerManager.Application\SanboxServerManager.Application.csproj", "{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxServerManager.Application", "SanboxServerManager.Application\SanboxServerManager.Application.csproj", "{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{96CE223C-B35B-42D6-B8C9-C66E18414072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92905808-F1D6-43EE-8F5A-AF340AB8DB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CE223C-B35B-42D6-B8C9-C66E18414072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CE223C-B35B-42D6-B8C9-C66E18414072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CE223C-B35B-42D6-B8C9-C66E18414072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CE223C-B35B-42D6-B8C9-C66E18414072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
