@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.4-develop.1899" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -18,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SanboxServerManager.Application\SanboxServerManager.Application.csproj" />
     <ProjectReference Include="..\SanboxServerManager.Infrastructure\SanboxServerManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\SanboxServerManager.SharedModels\SanboxServerManager.SharedModels.csproj" />
   </ItemGroup>
 
 </Project>

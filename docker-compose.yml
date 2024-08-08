@@ -12,6 +12,7 @@ services:
       - 5155:8081
     depends_on:
       - snbxdb
+      - rabbitmq
     networks:
       - snbx-network
 
@@ -26,6 +27,24 @@ services:
       - 5432:5432
     networks:
       - snbx-network
+
+  consolemessageservice:
+    build:
+      context: .
+      dockerfile: SanboxServerManager.ConsoleMessageService/Dockerfile
+    depends_on:
+      - rabbitmq
+    networks: 
+    - snbx-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks: 
+    - snbx-network
+
 
 networks:
   snbx-network:

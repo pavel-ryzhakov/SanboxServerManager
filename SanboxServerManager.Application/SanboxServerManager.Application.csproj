@@ -14,10 +14,12 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MassTransit" Version="8.2.4-develop.1899" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SanboxServerManager.Core\SanboxServerManager.Core.csproj" />
+    <ProjectReference Include="..\SanboxServerManager.SharedModels\SanboxServerManager.SharedModels.csproj" />
   </ItemGroup>
 
 </Project>

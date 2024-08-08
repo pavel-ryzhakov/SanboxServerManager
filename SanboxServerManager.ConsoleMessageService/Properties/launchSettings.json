@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SanboxServerManager.ConsoleMessageService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
