@@ -3,8 +3,16 @@
     "Docker Compose": {
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "identityservice",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
       "serviceActions": {
-        "sanboxservermanager.webapi": "StartDebugging"
+        "sanboxservermanager.webapi": "StartDebugging",
+        "consolemessageservice": "StartDebugging",
+        "identitydb": "StartWithoutDebugging",
+        "identityservice": "StartDebugging",
+        "rabbitmq": "StartWithoutDebugging",
+        "snbxdb": "StartWithoutDebugging"
       }
     }
   }

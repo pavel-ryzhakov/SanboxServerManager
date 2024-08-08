@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxServerManager.Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.SharedModels", "SanboxServerManager.SharedModels\SanboxServerManager.SharedModels.csproj", "{EA6DA08F-3BF3-4FCC-9803-C3FAD44980C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxServerManager.IdentityService", "SanboxServerManager.IdentityService\SanboxServerManager.IdentityService.csproj", "{6D669405-BD57-4CBA-B6E1-BB454A7E03C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EA6DA08F-3BF3-4FCC-9803-C3FAD44980C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6DA08F-3BF3-4FCC-9803-C3FAD44980C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6DA08F-3BF3-4FCC-9803-C3FAD44980C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D669405-BD57-4CBA-B6E1-BB454A7E03C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D669405-BD57-4CBA-B6E1-BB454A7E03C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D669405-BD57-4CBA-B6E1-BB454A7E03C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D669405-BD57-4CBA-B6E1-BB454A7E03C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

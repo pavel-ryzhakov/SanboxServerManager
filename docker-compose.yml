@@ -1,6 +1,20 @@
 version: '3.8'
 
 services:
+  identityservice:
+    build:
+      context: .
+      dockerfile: SanboxServerManager.IdentityService/Dockerfile
+    environment:
+      - ConnectionStrings__IdentityContext=Host=identitydb;Database=Identitydb;Username=postgres;Password=131313
+    ports:
+      - 5155:80
+    depends_on:
+      - identitydb
+      - rabbitmq
+    networks:
+      - snbx-network
+
   sanboxservermanager.webapi:
     build:
       context: .
@@ -8,8 +22,7 @@ services:
     environment:
       - ConnectionStrings__SandboxServerContext=Host=snbxdb;Database=SandboxServerDb;Username=postgres;Password=131313
     ports:
-      - 5154:8080
-      - 5155:8081
+      - 5154:80
     depends_on:
       - snbxdb
       - rabbitmq
@@ -45,6 +58,18 @@ services:
     networks: 
     - snbx-network
 
+  identitydb:
+    image: postgres
+    container_name: identitydb
+    environment:
+      - POSTGRES_DB=Identitydb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=131313
+    ports:
+      - 5433:5432
+
+    networks:
+      - snbx-network
 
 networks:
   snbx-network:
